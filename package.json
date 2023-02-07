@@ -1,0 +1,30 @@
+{
+  "name": "social_network_api",
+  "version": "1.0.0",
+  "description": "Challenge Week 18 - Social Network API - MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaqsentanner/Social_Network_API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaqsentanner/Social_Network_API/issues"
+  },
+  "homepage": "https://github.com/jaqsentanner/Social_Network_API#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.4",
+    "mongodb": "^4.5.0",
+    "mongoose": "^6.0.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
