@@ -1,5 +1,7 @@
-export default function emailValidate(email) {
+function emailValidate(email) {
     var re = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
     return re.test(email)
 };
+
+module.exports = emailValidate;
 
